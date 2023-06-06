@@ -4,7 +4,7 @@
 ob_start();
 
 // define path constants
-define('WWW_ROOT', 'http://my-notes.seojeongkim.com');
+define('WWW_ROOT', 'https://my-notes.seojeongkim.com');
 define('PROJECT_ROOT', dirname(__DIR__, 1));
 
 // define database constants
