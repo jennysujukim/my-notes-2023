@@ -44,6 +44,16 @@
     </ul>
 
     <div class="container tab-content" id="container nav-tabContent">
+
+      <?php $DB_HOST = 'localhost';
+        if(isset($_ENV[$DB_HOST])){
+          $value = $_ENV[$DB_HOST];
+          echo " The Value of DB HOST is store";
+        } else {
+          echo "try agian";
+        }
+      
+      ?>
       <p id="error-msg">Results Not Found.</p>
       <?php if($notes->num_rows === 0):?>
       <p class="text-body-secondary">You have no note so far.</p>
