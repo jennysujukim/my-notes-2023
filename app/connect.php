@@ -11,7 +11,7 @@ define('PROJECT_ROOT', dirname(__DIR__, 1));
 define('DB_HOST', 'localhost');
 define('DB_USER', 'note_app_user');
 define('DB_PASS', '#ksj23Q!');
-define('DB_DATABASE', 'note_app');
+define('DB_DATABASE', 'seojimcm_mynotes_app');
 
 // get functions.php
 require('functions.php');
