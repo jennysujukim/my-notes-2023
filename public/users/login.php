@@ -5,7 +5,7 @@
     $title = "Log In";
   
     // require init.php file
-    require('../../app/init.php');
+    require('../../app/connect.php');
 
     //if the POST request is submitted from the form
     if($_SERVER['REQUEST_METHOD'] === "POST"){

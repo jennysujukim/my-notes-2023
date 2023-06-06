@@ -1,6 +1,6 @@
 <?php
 
-require('app/functions.php');
+require('app/connect.php');
 
 // Redirect users
 redirect('/');

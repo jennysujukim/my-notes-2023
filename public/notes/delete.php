@@ -4,7 +4,7 @@
     $title = "Delete Note";
 
     // require init.php file
-    require('../../app/init.php');
+    require('../../app/connect.php');
 
 
     // id will be used to indicate the row data, super global variable $_GET request is used

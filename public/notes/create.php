@@ -5,7 +5,7 @@
     $title = "Add Note";
  
     // require init.php file
-    require('../../app/init.php');
+    require('../../app/connect.php');
 
     // session should be logged in
     $session->is_logged_in();

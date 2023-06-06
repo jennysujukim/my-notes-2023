@@ -5,7 +5,7 @@
     $title = "Log Out";
  
     // require init.php file
-    require('../../app/init.php');
+    require('../../app/connect.php');
 
     // session is login state
     $session->is_logged_in();
