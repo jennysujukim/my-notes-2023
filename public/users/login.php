@@ -42,6 +42,7 @@
 <body>
     <?php include(get_path('public/partials/header.php')); ?>
     <main class="container">
+        <?php echo 'My username is' .$_ENV["DB_USER"]; ?>
         <section class="card">
             <div class="card-header">
                 <h2 class="text-uppercase fs-3"><?php echo h($title);?></h2>
