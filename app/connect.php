@@ -16,9 +16,6 @@ define('DB_DATABASE', 'seojimcm_mynotes_app');
 // get functions.php
 require('functions.php');
 
-// get env.php
-require('env.php');
-
 // import class data
 require_once(get_path('app/Classes/Note.php'));
 require_once(get_path('app/Classes/User.php'));
