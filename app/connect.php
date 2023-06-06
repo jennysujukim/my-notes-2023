@@ -9,8 +9,8 @@ define('PROJECT_ROOT', dirname(__DIR__, 1));
 
 // define database constants
 define('DB_HOST', 'localhost');
-define('DB_USER', 'note_app_user');
-define('DB_PASS', '#ksj23Q!');
+define('DB_USER', 'seojimcm_mynotes_app_user');
+define('DB_PASS', '7o[@.0Z+T&4_');
 define('DB_DATABASE', 'seojimcm_mynotes_app');
 
 // get functions.php
